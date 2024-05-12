@@ -27,7 +27,7 @@ Registeration Number :212222040021
 */
 
 # In MainActivity.java
-
+'''
 java
 package com.example.camerafull1;
 
@@ -227,13 +227,14 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-
+'''
 
 
 
 
 
 # In activity_main.xml
+'''
 xml
 <?xml version="1.0" encoding="utf-8"?>
 
@@ -301,7 +302,7 @@ xml
 
 </RelativeLayout>
 
-
+'''
 
 ## OUTPUT
 ![image](https://github.com/RANJEETH17/MAD--PROJECT/assets/120718823/3448b81f-92bd-43ba-aa32-3f2afa605bb2)
