@@ -27,11 +27,9 @@ Registeration Number :212222040021
 */
 
 # In MainActivity.java
-'''
+
 java
 package com.example.camerafull1;
-
-
 
 import androidx.activity.result.ActivityResult;
 
@@ -48,7 +46,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.core.content.FileProvider;
-
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -98,8 +95,6 @@ import java.io.IOException;
 
 import java.lang.ref.WeakReference;
 
-
-
 public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE = 22;
@@ -109,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
 
     ActivityResultLauncher<Intent> activityResultLauncher;
-
 
 
     @SuppressLint("MissingInflatedId")
